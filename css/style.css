@@ -1,0 +1,200 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* 가장 뒤에 위치 */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* 페이지 크기에 맞춰서 조정 */
+}
+
+.tittle {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  width: 33vw;
+  height: auto;
+  transform: translate(-50%);
+}
+
+.subtitle {
+  position: absolute;
+  top: 25px;
+  font-size: 1rem;
+  color: #e1def3;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.text-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.text-item {
+  position: absolute;
+  font-size: 1.1rem;
+  color: #e1def3;
+  z-index: 5;
+  top: 70%;
+  opacity: 0.5;
+}
+
+#text0 {
+  top: 64%;
+  left: 6.5%;
+  font-size: 1.3rem;
+  opacity: 100;
+}
+
+#text1 {
+  left: 31%;
+}
+
+#text2 {
+  left: 63%;
+  transform: translateX(-50%);
+}
+
+#text3 {
+  left: 90%;
+}
+
+.text-item2 {
+  position: absolute;
+  font-size: 0.8rem;
+  color: #e1def3;
+  z-index: 5;
+  top: 67%;
+  opacity: 0.25;
+}
+
+#text-0 {
+  top: 60%;
+  left: 8.1%;
+  font-size: 1rem;
+  opacity: 0.6;
+}
+
+#text-1 {
+  left: 30.7%;
+}
+
+#text-2 {
+  left: 63%;
+  transform: translateX(-50%);
+}
+
+#text-3 {
+  left: 88.5%;
+}
+
+.info {
+  position: absolute;
+  font-size: 0.9rem;
+  color: white;
+  line-height: 1.5;
+}
+
+.info-1 {
+  bottom: 50px;
+  left: 10%;
+}
+
+.info-2 {
+  bottom: 70px;
+  left: 50%;
+}
+
+.info_detail {
+  position: absolute;
+  bottom: 15px;
+  font-size: 0.7rem;
+  color: white;
+  right: 31%;
+  text-align: left;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.date {
+  position: absolute;
+  top: 180px;
+  font-size: 1.5rem;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.land {
+  position: absolute;
+  bottom: 23%;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: auto;
+}
+
+.moon {
+  position: absolute;
+  bottom: 33%;
+  left: 50%;
+  z-index: 1;
+  width: 40vw;
+  height: auto;
+  transform: translate(-50%);
+}
+
+.bus {
+  position: absolute;
+  bottom: 23%;
+  left: 7%;
+  z-index: 3;
+  width: 7vw;
+  height: auto;
+}
+
+.star {
+  position: absolute;
+  bottom: 21.5%;
+  z-index: 5;
+  width: 2vw;
+  height: auto;
+}
+
+.star-1 {
+  left: 32%;
+}
+
+.star-2 {
+  left: 62%;
+}
+
+.star-3 {
+  left: 92%;
+}
+
+.bus_line {
+  position: fixed;
+  bottom: 23%;
+  left: 50%;
+  width: 85vw;
+  height: 2px;
+  background-color: white;
+  z-index: 4;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  border-radius: 2px;
+}
+
+.yongin {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 7vw;
+  height: auto;
+}
